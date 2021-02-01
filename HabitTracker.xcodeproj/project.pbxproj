@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		440B7C6425C82D40005DC768 /* DetailHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440B7C6325C82D40005DC768 /* DetailHabitView.swift */; };
 		4410CF1F25C7F96200FD4FD3 /* HabitTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4410CF1E25C7F96200FD4FD3 /* HabitTrackerApp.swift */; };
 		4410CF2125C7F96200FD4FD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4410CF2025C7F96200FD4FD3 /* ContentView.swift */; };
 		4410CF2325C7F96600FD4FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4410CF2225C7F96600FD4FD3 /* Assets.xcassets */; };
 		4410CF2625C7F96600FD4FD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4410CF2525C7F96600FD4FD3 /* Preview Assets.xcassets */; };
 		4410CF2F25C8026000FD4FD3 /* HabitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4410CF2E25C8026000FD4FD3 /* HabitCell.swift */; };
+		44E92D0625C8702D00EB4AC8 /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E92D0525C8702D00EB4AC8 /* States.swift */; };
+		44E92D0F25C8A34300EB4AC8 /* NewHabbitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E92D0E25C8A34300EB4AC8 /* NewHabbitView.swift */; };
+		44E92D1325C8A85E00EB4AC8 /* CalendarTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E92D1225C8A85E00EB4AC8 /* CalendarTrackingView.swift */; };
+		44E92D1625C8AAF200EB4AC8 /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E92D1525C8AAF200EB4AC8 /* Statistic.swift */; };
+		44E92D1925C8AC0200EB4AC8 /* Frequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E92D1825C8AC0200EB4AC8 /* Frequency.swift */; };
+		44E92D1C25C8AC4700EB4AC8 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E92D1B25C8AC4700EB4AC8 /* Reminder.swift */; };
+		44E92D1F25C8ACD200EB4AC8 /* TitleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E92D1E25C8ACD200EB4AC8 /* TitleDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		440B7C6325C82D40005DC768 /* DetailHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHabitView.swift; sourceTree = "<group>"; };
 		4410CF1B25C7F96200FD4FD3 /* HabitTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4410CF1E25C7F96200FD4FD3 /* HabitTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerApp.swift; sourceTree = "<group>"; };
 		4410CF2025C7F96200FD4FD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,6 +31,13 @@
 		4410CF2525C7F96600FD4FD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4410CF2725C7F96600FD4FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4410CF2E25C8026000FD4FD3 /* HabitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCell.swift; sourceTree = "<group>"; };
+		44E92D0525C8702D00EB4AC8 /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
+		44E92D0E25C8A34300EB4AC8 /* NewHabbitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHabbitView.swift; sourceTree = "<group>"; };
+		44E92D1225C8A85E00EB4AC8 /* CalendarTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTrackingView.swift; sourceTree = "<group>"; };
+		44E92D1525C8AAF200EB4AC8 /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
+		44E92D1825C8AC0200EB4AC8 /* Frequency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frequency.swift; sourceTree = "<group>"; };
+		44E92D1B25C8AC4700EB4AC8 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		44E92D1E25C8ACD200EB4AC8 /* TitleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +72,9 @@
 			children = (
 				4410CF1E25C7F96200FD4FD3 /* HabitTrackerApp.swift */,
 				4410CF2025C7F96200FD4FD3 /* ContentView.swift */,
-				4410CF2E25C8026000FD4FD3 /* HabitCell.swift */,
+				44E92D2125C8AD5F00EB4AC8 /* DetailView */,
+				44E92D2325C8AD7000EB4AC8 /* HomeScreen */,
+				44E92D2425C8AD7B00EB4AC8 /* States */,
 				4410CF2225C7F96600FD4FD3 /* Assets.xcassets */,
 				4410CF2725C7F96600FD4FD3 /* Info.plist */,
 				4410CF2425C7F96600FD4FD3 /* Preview Content */,
@@ -70,6 +88,36 @@
 				4410CF2525C7F96600FD4FD3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44E92D2125C8AD5F00EB4AC8 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				44E92D1225C8A85E00EB4AC8 /* CalendarTrackingView.swift */,
+				44E92D1525C8AAF200EB4AC8 /* Statistic.swift */,
+				440B7C6325C82D40005DC768 /* DetailHabitView.swift */,
+				44E92D1E25C8ACD200EB4AC8 /* TitleDetailView.swift */,
+				44E92D1B25C8AC4700EB4AC8 /* Reminder.swift */,
+				44E92D1825C8AC0200EB4AC8 /* Frequency.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		44E92D2325C8AD7000EB4AC8 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				44E92D0E25C8A34300EB4AC8 /* NewHabbitView.swift */,
+				4410CF2E25C8026000FD4FD3 /* HabitCell.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		44E92D2425C8AD7B00EB4AC8 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				44E92D0525C8702D00EB4AC8 /* States.swift */,
+			);
+			path = States;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +189,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44E92D1325C8A85E00EB4AC8 /* CalendarTrackingView.swift in Sources */,
+				44E92D0625C8702D00EB4AC8 /* States.swift in Sources */,
+				44E92D1625C8AAF200EB4AC8 /* Statistic.swift in Sources */,
 				4410CF2125C7F96200FD4FD3 /* ContentView.swift in Sources */,
 				4410CF1F25C7F96200FD4FD3 /* HabitTrackerApp.swift in Sources */,
+				44E92D1925C8AC0200EB4AC8 /* Frequency.swift in Sources */,
+				44E92D0F25C8A34300EB4AC8 /* NewHabbitView.swift in Sources */,
+				44E92D1F25C8ACD200EB4AC8 /* TitleDetailView.swift in Sources */,
+				440B7C6425C82D40005DC768 /* DetailHabitView.swift in Sources */,
 				4410CF2F25C8026000FD4FD3 /* HabitCell.swift in Sources */,
+				44E92D1C25C8AC4700EB4AC8 /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
