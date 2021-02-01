@@ -20,6 +20,8 @@
 		44E92D1925C8AC0200EB4AC8 /* Frequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E92D1825C8AC0200EB4AC8 /* Frequency.swift */; };
 		44E92D1C25C8AC4700EB4AC8 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E92D1B25C8AC4700EB4AC8 /* Reminder.swift */; };
 		44E92D1F25C8ACD200EB4AC8 /* TitleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E92D1E25C8ACD200EB4AC8 /* TitleDetailView.swift */; };
+		44E92D2725C8B71600EB4AC8 /* TitleHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E92D2625C8B71500EB4AC8 /* TitleHomeScreen.swift */; };
+		44E92D2A25C8B78800EB4AC8 /* AddHabbitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E92D2925C8B78800EB4AC8 /* AddHabbitButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		44E92D1825C8AC0200EB4AC8 /* Frequency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frequency.swift; sourceTree = "<group>"; };
 		44E92D1B25C8AC4700EB4AC8 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		44E92D1E25C8ACD200EB4AC8 /* TitleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleDetailView.swift; sourceTree = "<group>"; };
+		44E92D2625C8B71500EB4AC8 /* TitleHomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleHomeScreen.swift; sourceTree = "<group>"; };
+		44E92D2925C8B78800EB4AC8 /* AddHabbitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabbitButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 		44E92D2325C8AD7000EB4AC8 /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
+				44E92D2925C8B78800EB4AC8 /* AddHabbitButton.swift */,
+				44E92D2625C8B71500EB4AC8 /* TitleHomeScreen.swift */,
 				44E92D0E25C8A34300EB4AC8 /* NewHabbitView.swift */,
 				4410CF2E25C8026000FD4FD3 /* HabitCell.swift */,
 			);
@@ -192,10 +198,12 @@
 				44E92D1325C8A85E00EB4AC8 /* CalendarTrackingView.swift in Sources */,
 				44E92D0625C8702D00EB4AC8 /* States.swift in Sources */,
 				44E92D1625C8AAF200EB4AC8 /* Statistic.swift in Sources */,
+				44E92D2725C8B71600EB4AC8 /* TitleHomeScreen.swift in Sources */,
 				4410CF2125C7F96200FD4FD3 /* ContentView.swift in Sources */,
 				4410CF1F25C7F96200FD4FD3 /* HabitTrackerApp.swift in Sources */,
 				44E92D1925C8AC0200EB4AC8 /* Frequency.swift in Sources */,
 				44E92D0F25C8A34300EB4AC8 /* NewHabbitView.swift in Sources */,
+				44E92D2A25C8B78800EB4AC8 /* AddHabbitButton.swift in Sources */,
 				44E92D1F25C8ACD200EB4AC8 /* TitleDetailView.swift in Sources */,
 				440B7C6425C82D40005DC768 /* DetailHabitView.swift in Sources */,
 				4410CF2F25C8026000FD4FD3 /* HabitCell.swift in Sources */,

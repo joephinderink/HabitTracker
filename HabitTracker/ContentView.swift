@@ -20,42 +20,11 @@ struct ContentView: View {
                 .ignoresSafeArea()
             VStack {
                 VStack {
-                    HStack {
-                        Button (action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                            Image(systemName: "line.horizontal.3")
-                                .resizable()
-                                .frame(width: 20, height: 15, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                .padding()
-                        })
-                        Spacer()
-                        //                                                Text("\(states.offset.width)")
-                        Text("Habits")
-                            .font(.title2)
-                            .fontWeight(.bold)
-                            .padding(.trailing, UIScreen.main.bounds.width * 0.43)
-                    }
-                    .foregroundColor(.white)
+                    TitleHomeScreen()
                     ForEach(0 ..< 3) { item in
                         HabitCell(title: "Meditation")
-                        //                            .padding(8)
                     }
-                    Button (action: {
-                        states.showNewHabbit = true
-                    }, label: {
-                        HStack {
-                            Image(systemName: "plus.square")
-                                .resizable()
-                                .frame(width: 20, height: 20, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                .foregroundColor(Color("purple"))
-                            Text("Add a new habit")
-                                .fontWeight(.bold)
-                                .foregroundColor(Color("purple"))
-                        }
-                        .padding()
-                    })
-                    .sheet(isPresented: $states.showNewHabbit) {
-                        NewHabbitView()
-                    }
+                    AddHabbitButton()
                 }
                 Spacer()
             }
@@ -110,9 +79,5 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .environmentObject(States())
-            .previewDevice("iPhone 8")
-        ContentView()
-            .environmentObject(States())
-            .previewDevice("iPhone 12")
     }
 }
